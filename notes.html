@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Notes</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/notes.css" rel="stylesheet">
+    <script src="js/notes.js" async></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+               <div class="main">
+                <div class="header">
+                  <h1>notes</h1>  
+                </div>
+                 <form action="noteform.php" method="post">
+                  <div class="view">
+                    <div class="text_hidden" id="div_hidden">
+                      <p>Text:</p>
+                       <div class="view_notes">
+                        
+						
+                     </div>
+                     <p>Subject:</p>
+                     <div class="view_subj">
+                       
+                     </div> 
+                    </div>
+                    <div class="new" id="div_new">
+                     <div class="new_text">
+                      <label for="note">Text:</label>
+                       <textarea type="text" class="area" name="note" id="text_area" cols="30" rows="15" required></textarea>
+                     </div>
+                     <div class="subject">
+                      <label for="subj_text">Subject:</label>
+                       <input type="text" id="subj_text" name="subj_text" class="subj_text"> 
+                     </div>
+                    </div>
+                  </div>
+                  <div class="btns">
+                     <input type="submit" id="new" value="new">
+                     <input type="submit" id="save" value="save">
+                     <input type="submit" id="view" value="view">
+                     <input type="submit" id="edit" value="edit">
+                     <input type="submit" id="delete" value="delete">
+                      
+                  </div>
+                 </form> 
+               </div>
+           </div>
+       </div>
+   </div>
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

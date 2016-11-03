@@ -1,0 +1,154 @@
+body {
+    /*background-image: url(../img/bg-light-4860.png);*/
+	font-family: "Times New Roman", Times, serif;
+    color: #000;
+}
+
+.reg {
+	width: 100%;
+    background-color: #edeaea;
+    border: 2px solid #608a05;
+    border-radius: 10px;
+    /*margin-top: 50px;*/
+}
+
+
+.forms {
+    margin-left: 55px;
+}
+
+.forms fieldset p label {
+	font-family: 'Courgette', cursive;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.forms input {
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+.anchor {
+    margin: 10px 0 15px 55px;
+}
+
+.anchor a {
+    padding: 7px 15px;
+    background-color: #c9c6c6;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #848282;
+    border-radius: 3px;
+}
+
+#div_get_href {
+    background-color: #608a05;
+    padding: 10px 0 10px 22px;
+}
+
+.hader_form p {
+    color: #fbd005;
+    font-size: 26px;
+	background-color: #608a05;
+	font-family: 'Courgette', cursive;
+	font-family: "Times New Roman", Times, serif;
+	/*font-family: 'Satisfy', cursive;*/
+	/*font-family: 'Lobster', cursive;*/
+    padding: 15px 0 15px 55px;    
+}
+
+
+.submit {
+    /*margin-bottom: 55px;
+    margin-right: 90px;*/
+	margin: 20px 90px 55px 0;
+}
+
+.submit button {
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+.submit button:hover, .submit button:active {
+	color: #fff;
+}
+
+.enter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.a_enter {
+    /*padding: 3px 96px;*/
+    /*background-color: #608a05;*/
+    /*border-radius: 10px;*/
+    color: #222222;
+    font-weight: bold;
+    
+}
+
+.a_enter:hover, .a_enter:active {
+    color: #7b7b7b;
+    text-decoration: none;
+    
+}
+
+
+/*Note Form*/
+
+.view_comment {
+    width: 50%;
+    margin: 50px auto;
+    margin-bottom: 50px;
+}
+
+.view_form {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.form_note {
+    width: 400px;
+}
+
+.form_note div {
+    float: left;
+    width: 400px;
+    padding: 0 0 0.75em 0;
+}
+
+.form_note label {
+    float: left;
+    width: 120px;
+}
+
+.form_note textarea, .form_note input {
+    float: right;
+    width: 260px;
+}
+
+.form_note input[type="button"] {
+    float: none;
+    width: auto;
+}
+
+.form_note .submit_note {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

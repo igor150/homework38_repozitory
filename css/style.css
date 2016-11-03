@@ -1,0 +1,155 @@
+body {
+    background-image: url(../img/bg-light-4860.png);
+	font-family: "Times New Roman", Times, serif;
+}
+
+.reg {
+    background-color: #edeaea;
+    border: 2px solid #9eb1ff;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+.forms {
+    margin-left: 55px;
+}
+
+.forms fieldset label {
+	font-family: 'Courgette', cursive;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.forms input {
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+.anchor {
+    margin: 10px 0 15px 55px;
+}
+
+.anchor a {
+    padding: 7px 15px;
+    background-color: #c9c6c6;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #848282;
+    border-radius: 3px;
+}
+
+#div_get_href {
+    background-color: #9eb1ff;
+    padding: 10px 0 10px 22px;
+}
+
+.hader_form p {
+    font-size: 26px;
+	background-color: #9eb1ff;
+	font-family: 'Courgette', cursive;
+	font-family: "Times New Roman", Times, serif;
+	/*font-family: 'Satisfy', cursive;*/
+	/*font-family: 'Lobster', cursive;*/
+    padding: 15px 0 15px 55px;    
+}
+
+
+.submit {
+    margin-bottom: 55px;
+    margin-right: 90px;
+    float:left;
+	
+}
+
+.submit button {
+	border-radius: 10px;
+	padding: 0 102px;
+	background-color: #9eb1ff;
+	font-weight: bold;
+	color: #fff;
+}
+
+.submit button:hover, .submit button:active {
+	background-color: #7892ff;
+	color: #fff;
+}
+
+.enter {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.a_enter {
+    padding: 3px 96px;
+    background-color: #9eb1ff;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.a_enter:hover, .a_enter:active {
+    background-color: #7892ff;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+/*Note Form*/
+
+.view_comment {
+    width: 50%;
+    margin: 50px auto;
+    margin-bottom: 50px;
+}
+
+.view_form {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.form_note {
+    width: 400px;
+}
+
+.form_note div {
+    float: left;
+    width: 400px;
+    padding: 0 0 0.75em 0;
+}
+
+.form_note label {
+    float: left;
+    width: 120px;
+}
+
+.form_note textarea, .form_note input {
+    float: right;
+    width: 260px;
+}
+
+.form_note input[type="button"] {
+    float: none;
+    width: auto;
+}
+
+.form_note .submit_note {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

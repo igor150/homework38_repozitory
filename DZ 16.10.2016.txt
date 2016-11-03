@@ -1,0 +1,13 @@
+Зробити на кл1ентск1 сторон1 форму для отправки на сервер ново1 зам1тки
+
+[error:55]
+
+
+$_POST
+
+na storinki login koli login nepraviln vipraviti pomilku
+
+pomilka: ne prekidue bo tam nemae header('Refresh:3;url=/');
+
+
+error pуreviriti koli password ne vvedeniy ta vipraviti

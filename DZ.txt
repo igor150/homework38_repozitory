@@ -1,0 +1,19 @@
+обробка даних з форми рег1страц11 це
+
+0 zahist dannih
+
+1 перев1рка даних
+
+обовязков1 дан1 не повинн1 бути пуст1 
+povinni vidpovidat formatu bazi dannih
+ne povinn1 povtoruvatis (login email)
+
+2 reestraciya koristuvacha u bazi danih
+
+dobavlyaetsya dva zapisi u dvi tablici
+
+access
+userlogin userpassword
+
+userinfo
+userid email fisrtname lastname
